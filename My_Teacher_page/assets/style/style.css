@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: block;
+    background-color: #fff;
+    ;
+
+}
+
+header img {
+    display: block;
+    margin: 79px auto 43px auto;
+    width: 247px;
+}
+
+header p {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    text-align: center;
+    margin: 0 0 53px 0;
+    font-size: 1rem;
+
+}
+
+main {
+    margin-bottom: 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 100px 0;
+    
+    
+
+}
+
+.teacher-img {
+    display: flex;
+
+}
+
+.teacher-img img {
+    width: 370px;
+}
+
+.name-teacher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    font-size: 18px;
+}
+
+.name-teacher p {
+    color: #F52273;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+.comentario-teacher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comentario-teacher p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 224px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 31px;
+}
+
+.box-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 76px;
+}
+
+.box-btn input {
+    width: 184px;
+    height: 50px;
+    margin-right: 19px;
+    text-align: center;
+}
+
+.box-btn button {
+    width: 230px;
+    height: 50px;
+    margin-right: 19px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    background-color: #F52273;
+    color: #fff;
+    border: none;
+    
+}
