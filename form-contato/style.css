@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    font-style: normal;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+main h1 {
+    color: aliceblue;
+
+}
+
+.form-user {
+    display: flex;
+    flex-direction: column;
+    background-color: #EEE4B1;
+    width: 30%;
+    height: auto;
+    margin: 15px auto;
+    padding: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.name-email {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.name-email img {
+    background-color: #fff;
+    width: 2.5rem;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.form-user label {
+    color: blueviolet;
+    font-size: 1rem;
+
+}
+
+.form-user input {
+    border: none;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+.form-user input,
+textarea:focus {
+    outline-color: blueviolet;
+}
+
+.form-user textarea {
+    border: none;
+    border-radius: 5px;
+}
+
+.form-user button {
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.form-user button:hover {
+    opacity: .8;
+    cursor: pointer;
+}
